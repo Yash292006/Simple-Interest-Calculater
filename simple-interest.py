@@ -15,6 +15,7 @@ rate = float(input("Enter rate of interest (in %): "))
 time = float(input("Enter time (in years): "))
 n = int(input("Enter number of times interest applied per year: "))
 
+
 # Compound Interest formula: A = P * (1 + r/n)^(n*t)
 amount = principal * (1 + rate / (100 * n)) ** (n * time)
 compound_interest = amount - principal
